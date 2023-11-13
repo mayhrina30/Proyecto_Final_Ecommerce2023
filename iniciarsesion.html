@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Comic</title>
+
+    <link rel="stylesheet" href="/./css/formulario.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <form action="#" method="post" id="loginForm" onsubmit="return iniciarSesion()">
+            <h1 class="title">Login</h1>
+            <label for="username">
+                <i class="fa-solid fa-user"></i>
+                <input placeholder="nombre de usuario" type="text" id="username" name="username">
+            </label>
+            <label for="password">
+                <i class="fa-solid fa-lock"></i>
+                <input placeholder="contraseña" type="password" id="password" name="password">
+            </label>
+            <a href="#" class="link" id="olvidoContrasena" onclick="abrirModalRecuperacion()">¿Olvidaste tu
+                contraseña?</a>
+
+            <button id="button" type="submit">Login</button>
+        </form>
+    </main>
+
+    <!-- Modal de recuperación de contraseña -->
+    <div class="modal" id="modalRecuperacion">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModalRecuperacion()">&times;</span>
+            <h2>Recuperación de Contraseña</h2>
+            <p>Ingresa tu correo electrónico para recuperar tu contraseña.</p>
+            <input type="email" id="correoRecuperacion" placeholder="Correo electrónico">
+            <button onclick="enviarRecuperacion()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="formulario.js"></script>
+    <script>
+        const enlaceOlvidoContrasena = document.getElementById("olvidoContrasena");
+        enlaceOlvidoContrasena.addEventListener("click", abrirModalRecuperacion);
+
+        function abrirModalRecuperacion() {
+            const modalRecuperacion = document.getElementById("modalRecuperacion");
+            modalRecuperacion.style.display = "block";
+        }
+
+        function cerrarModalRecuperacion() {
+            const modalRecuperacion = document.getElementById("modalRecuperacion");
+            modalRecuperacion.style.display = "none";
+        }
+
+        function enviarRecuperacion() {
+            const correoRecuperacion = document.getElementById("correoRecuperacion").value;
+            // Aquí puedes agregar la lógica para enviar el correo de recuperación
+            alert(`Se ha enviado un correo de recuperación a ${correoRecuperacion}.`);
+            cerrarModalRecuperacion();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* Globales */
+/*::after,
+::before,*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/6973960/pexels-photo-6973960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    font-family: 'Nerko One', cursive;
+}
+
+.checkout{
+    align-items: center;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.checkout h2{
+    background-color: #fcfcfc;
+    color: #e04a8d ;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    border: 1px dashed #e04a8d;
+}
+
+.checkout h3{
+    padding-bottom: 5px;
+    color: #e04a8d;
+}
+
+.form-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.col-md-12{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.col-md-12:last-child{
+    margin-right: 0;
+}
+
+.col-md-12 .form-control{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px  solid #e04a8d;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px
+}
+
+.input-radio{
+    color: #000000;
+}
+
+.button{
+    width: 100%;
+    background-color: #ff68ac;
+    border: none;
+    padding: 15px 60px;
+    border-right: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 80px;
+    font-family: #fff;
+    margin: 10px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #a3f0fe;
+}

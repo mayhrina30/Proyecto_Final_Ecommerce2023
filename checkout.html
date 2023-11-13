@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="./css/checkout.css" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/slick.css">
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css">
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css">
+	</head>
+	<body>
+		<div class="checkout">
+			<!-- Billing Details -->
+			<h2 class="title">Direccion de Envio</h2>
+
+			<h3 class="h4 text-black mb-5">Formulario de contacto</h3>
+			
+			<form action="" method="post">
+
+				<div class=" row form-group">
+					<div class="col-md-12">
+						<input type="text" name="nombre" class="form-control" placeholder="Nombre">
+					</div>
+				
+				    <div class="col-md-12">
+						<input type="text" name="apellido" class="form-control" placeholder="Apellido">
+				    </div>
+						
+				</div>
+
+				<div class=" row form-group">
+					<div class="col-md-12">
+						<input type="email" name="email" class="form-control" placeholder="Email">
+					</div>
+				</div>
+
+				<div class=" row form-group">
+					<div class="col-md-12">
+						<input type="text" name="asunto" class="form-control" placeholder="Direccion">
+					</div>
+				</div>
+
+				<div class=" row form-group">
+					<div class="col-md-12">
+						<input type="text" name="ciudad" class="form-control" placeholder="Ciudad">
+					</div>
+				</div>
+
+				<div class=" row form-group">
+					<div class="col-md-12">
+						<input type="text" name="codigo postal" class="form-control" placeholder="Codigo Postal">
+					</div>
+				</div>
+				
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" name="text" class="form-control" placeholder="Telefono">
+					</div>
+				</div>
+			</form>
+		
+			<!-- /Billing Details -->
+
+
+			<!-- Order notes -->
+			<div class="order-notes">
+				<textarea class="input" placeholder="Order Notes"></textarea>
+			</div>
+			<!-- /Order notes -->
+			
+			<br>
+
+			<!-- Order Details -->
+			<div class="col-md-5 order-details">
+				<div class="section-title text-center">
+					<h2 class="title">Su orden</h2>
+				</div>
+
+				<div class="order-summary">
+					<div class="order-col">
+						<div><strong>PRODUCTO</strong></div>
+						<div><strong>TOTAL</strong></div>
+					</div>
+					<div class="order-products">
+						<div class="order-col">
+							<div>1x Product Name Goes Here</div>
+							<div>$980.00</div>
+						</div>
+									<div class="order-col">
+										<div>2x Product Name Goes Here</div>
+										<div>$980.00</div>
+									</div>
+								</div>
+								
+								
+							</div>
+							<br>
+							<h3>Payment</h3>
+							<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="191410359-a87f79fa-fba9-44ad-97f8-7dea924af200" data-source="button">
+</script>
+
+
+							<div class="payment-method">
+								<div class="input-radio">
+									<input type="radio" name="payment" id="payment-1">
+									<label for="payment-1">
+										<span></span>
+										<a href="error404.html">Transferencia Bancaria</a>
+									</label>
+								</div>
+							
+								<div class="input-checkbox">
+									<input type="checkbox" id="terms">
+									<label for="terms">
+										<span></span>
+										Acepta <a href="#">Termino y Condiciones</a>
+									</label>
+								</div>
+							</div>
+						
+						<br>
+						<a href="gracias.html" class="button">Realizar Pedido</a>
+
+							
+					</div>
+				
+				</div>
+			<!-- /Order Details -->
+				
+		</div>
+		
+        <script src="checkout.js"></script>
+	</body>
+</html>
