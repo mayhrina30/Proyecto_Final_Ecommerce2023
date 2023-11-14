@@ -9,6 +9,7 @@
 <li><b>👩‍💻<a href="https://github.com/mairaggimenez">Maira Gimenez</a></b></li>
 <li><b>👩🏻‍💻<a href="https://github.com/LucianaBaigorria">Luciana Baigorria</a></b></li>
  <li><b>👨‍💻<a href="https://github.com/jorolio">Jorge De la Plata</a></b></li>
+![Uploading MariaDurbaniGIF.gif…]()
 
 <br> 
 <ul style="list-style-type: none;">
@@ -46,5 +47,6 @@ Carrito de Compras: Los usuarios pueden agregar productos a su carrito de compra
 Navegación Intuitiva: La interfaz de usuario incluye una barra de navegación que permite a los usuarios iniciar sesión fácilmente para gestionar sus compras.
 Proceso de Pago: La integración con MercadoPago facilita a los usuarios realizar transacciones seguras y rápidas.
 Diseño Responsivo: La aplicación está diseñada con Bootstrap para garantizar una experiencia consistente en dispositivos de diferentes tamaños.<p>
+
 
 
