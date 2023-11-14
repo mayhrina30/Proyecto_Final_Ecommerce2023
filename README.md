@@ -48,5 +48,5 @@ Navegación Intuitiva: La interfaz de usuario incluye una barra de navegación q
 Proceso de Pago: La integración con MercadoPago facilita a los usuarios realizar transacciones seguras y rápidas.
 Diseño Responsivo: La aplicación está diseñada con Bootstrap para garantizar una experiencia consistente en dispositivos de diferentes tamaños.<p>
 
-
+mmmmmmmm
 
